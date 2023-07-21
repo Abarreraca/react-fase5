@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario sobre Selectores CSS</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>Formulario selectores CSS</h1>
+<form id="cssSelectorsForm">
+<label for="q1">1. ¿Qué selector CSS se utiliza para seleccionar elementos por su etiqueta?</label><br>
+<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">a) tag</label><br>
+<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">b) .class</label><br>
+<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">c) #id</label><br>
+<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">d) *(asterisco)</label><br>
+<br>
+<label for="q2">2. Menciona un selector CSS que se utilice para seleccionar elementos por su clase.</label><br>
+<input type="radio" name="q2" value="a" id="q2a"><label for="q2a">a) tag</label><br>
+<input type="radio" name="q2" value="b" id="q2b"><label for="q2b">b) .class</label><br>
+<input type="radio" name="q2" value="c" id="q2c"><label for="q2c">c) #id</label><br>
+<input type="radio" name="q2" value="d" id="q2d"><label for="q2d">d) * (asterisco)</label><br>
+<br>
+<label for="q3">3. ¿Cómo seleccionarías un elemento con el ID "miElemento" usando CSS?</label><br>
+<input type="radio" name="q3" value="a" id="q3a"><label for="q3a">a) tag</label><br>
+<input type="radio" name="q3" value="b" id="q3b"><label for="q3b">b) .class</label><br>
+<input type="radio" name="q3" value="c" id="q3c"><label for="q3c">c) #miElemento</label><br>
+<input type="radio" name="q3" value="d" id="q3d"><label for="q3d">d) * (asterisco)</label><br>
+<br>
+<label for="q4">4. ¿Qué selector CSS se utiliza para seleccionar elementos que son hijos directos de otro elemento?</label><br>
+<input type="radio" name="q4" value="a" id="q4a"><label for="q4a">a) tag</label><br>
+<input type="radio" name="q4" value="b" id="q4b"><label for="q4b">b) .class</label><br>
+<input type="radio" name="q4" value="c" id="q4c"><label for="q4c">c) #id</label><br>
+<input type="radio" name="q4" value="d" id="q4d"><label for="q4d">d) > (mayor que)</label><br>
+<br>
+<label for="q5">5. Menciona un ejemplo de selector de atributo CSS.</label><br>
+<input type="radio" name="q5" value="a" id="q5a"><label for="q5a">a) tag[attr]</label><br>
+<input type="radio" name="q5" value="b" id="q5b"><label for="q5b">b) .class[attr]</label><br>
+<input type="radio" name="q5" value="c" id="q5c"><label for="q5c">c) #id[attr]</label><br>
+<input type="radio" name="q5" value="d" id="q5d"><label for="q5d">d) attr(value)</label>
+<br>
+<br>
+<button class="enviar" type="button" onclick="checkAnswers()">Enviar respuestas</button>
+</form>
+
+<script type="text/javascript" src="form.js"></script>
+</body>
+
+</html>

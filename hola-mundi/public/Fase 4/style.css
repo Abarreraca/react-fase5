@@ -1,0 +1,29 @@
+body {
+font-family: bahnschrift;
+line-height: 1.6;
+background-image: url("img/fondo.jpg");
+font-size: 26px;
+color: white;
+}
+
+h1{
+text-align: center;
+}
+
+.enviar{
+font-family: bahnschrift;
+background-color: #000000;
+}
+
+input[type="radio"] {
+margin-right: 5px;
+}
+
+button {
+background-color: #007bff;
+color: #fff;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+font-size: 26px;
+}
